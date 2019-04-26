@@ -1,0 +1,87 @@
+
+body{
+    width: 70%;
+    margin:0 auto;
+    
+    
+
+    }
+  h1,h2,h3{
+    font-family: arial;
+    padding-top: 1.5em;
+    font-size: 32px;
+  }
+  table{
+    border-width: 8px;
+    border-color: black;
+  }
+  
+  img + p {
+    margin-top: 0;
+    font-style: italic;
+    
+  }
+  img{
+    width:200px;
+    float:left;
+    margin: 4px 10px 2px 0px;     
+  }
+  
+  figure{
+    
+    float: left;
+    width: 21%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 100;
+    
+    margin: 0.5em;
+    padding: 0.5em;
+  
+  }
+  body{
+    background: hsla(32, 100%, 50%,0.5);   
+  }
+  table{
+    
+    background: rgba(77, 245, 43, 0.589)
+  }
+
+ 
+  .panel{
+    
+    position: fixed;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+  }
+
+  .panel li {
+    display: inline;
+  }
+
+  .panel a {
+    background-clip: border-box;
+    transform: scale(1.02, 1.02);
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(120, 50, 20);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: lavender;
+    border-bottom: 5px solid #5757a0;
+  }
+
+
+  .mm{
+    background-color: rgb(60, 39, 182);
+    color: rgb(122, 200, 20);
+    padding: 10px 300px;
+    margin: 10px;
+    border-bottom: 5px solid #5757a0;
+    display: inline-block;
+  }
